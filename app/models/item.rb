@@ -1,3 +1,3 @@
 class Item < ApplicationRecord
-  belongs_to :item
+  has_one :item_orderend
 end
